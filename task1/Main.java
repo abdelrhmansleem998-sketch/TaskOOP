@@ -18,5 +18,7 @@ public class Main {
     t1.inputPrice(5000.0);
     t1.checkPrice();
     t1.Display();
+
+    Toy.closeInput();
   }
 }

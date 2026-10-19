@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Toy {
-  Scanner input = new Scanner(System.in);
+  private static final Scanner input = new Scanner(System.in);
 
   public String name;
   public double price;
@@ -38,11 +38,16 @@ public class Toy {
   }
 
   public void checkPrice() {
-    if (price > 1000.0) {
+    while (price > 1000.0) {
       System.out.println("Please Enter Number less than 1000.");
+      System.out.print("Enter price: ");
       double newPrice = input.nextDouble();
       input.nextLine();
       inputPrice(newPrice);
     }
+  }
+
+  public static void closeInput() {
+    input.close();
   }
 }
