@@ -1,0 +1,29 @@
+LAB 2: Class Definition and Object Declaration
+Expected Output
+
+==========================================
+Question 1: Person
+==========================================
+Enter age: 25
+Age is 20
+Hi there
+
+Note: sayAge() sets age = 20 inside the method, so it always prints 20
+even if the user entered a different age.
+
+==========================================
+Question 2: Rectangle (valid values)
+==========================================
+Enter length: 5
+Enter height: 3
+Length: 5.0
+Height: 3.0
+Perimeter: 16.0
+Area: 15.0
+
+==========================================
+Question 2: Rectangle (invalid values)
+==========================================
+Enter length: -5
+Enter height: 3
+Invalid input
