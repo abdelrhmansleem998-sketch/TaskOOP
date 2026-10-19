@@ -27,7 +27,7 @@ public class Student {
     this.name = "Ahmed";
     this.age = 20;
     this.birthyear = Year.now().getValue() - this.age;
-    this.grade = 4.0;
+    this.grade = 90.0;
   }
 
   public void inputDetails() {
